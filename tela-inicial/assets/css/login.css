@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     outline: none;
-    color: #fff
+    color: #fff;
 }
 
 body {
@@ -77,6 +77,22 @@ form input::placeholder {
     background-color: #3d5bc9;
 }
 
-.form-custom{
-    background-color: #1e2124;
+.btn-voltar {
+    position: absolute; 
+    top: 20px;          
+    left: 20px;         
+    
+    color: #7289da;     
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    
+    transition: color 0.2s ease;
+}
+
+
+.btn-voltar:hover {
+    color: #fff;        
+    text-decoration: none;
 }

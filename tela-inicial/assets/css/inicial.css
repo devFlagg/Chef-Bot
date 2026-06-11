@@ -57,3 +57,7 @@ body {
     background-color: #7289da;
     border-color: #7289da;
 }
+
+.box-cadastro .btn-custom:hover{
+    background-color: #3d5bc9;
+}
